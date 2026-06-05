@@ -1,4 +1,5 @@
 //! Implement a Fallible Rc
+#[cfg(not(feature = "unstable"))]
 use super::FallibleBox;
 use crate::TryReserveError;
 #[cfg(not(feature = "unstable"))]
